@@ -12,6 +12,9 @@ const App = () => {
           <li>
             <Link to="profile">Profile page</Link>
           </li>
+          <li>
+            <Link to="info">Info page</Link>
+          </li>
         </ul>
       </nav>
     </div>
