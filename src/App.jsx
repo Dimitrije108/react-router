@@ -1,24 +1,14 @@
-import { useState } from 'react'
-import { Link } from "react-router-dom";
 import './App.css'
+import { Link } from 'react-router-dom';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>Hello from the main page of the app!</h1>
-      <p>Here are some examples of links to other pages</p>
-      <nav>
-        <ul>
-          <li>
-            <Link to="profile">Profile page</Link>
-          </li>
-          <li>
-            <Link to="info">Info page</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  );
-};
+    <>
+      <h1>WELCOME TO THE HOME PAGE TRAVELLER!!!</h1>
+      <p>This is just a recreation used for practice purposes</p>
+      <Link to={"my-path"}>Enter 'My Path' Traveller</Link>
+    </>
+  )
+}
 
-export default App
+export default App;
